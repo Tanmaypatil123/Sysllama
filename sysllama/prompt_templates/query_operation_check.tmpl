@@ -1,0 +1,21 @@
+Check the operation user wanted to perform with this query as per following instructions :
+Instructions : 
+1. If user wanted to get info of processes and tools and files and folders present in system operating system then the query is Neutral then generate output = "neutral"
+2. IF user wanted to create process or file or folder or user wanted to install something on operating system  then the query is create then generate output = "create".
+3 If user wanted to uninstall or delete something that is installed or present on the system then query is delete then generate output = "delete"
+4.please use following examples for refernce only . don't generate anything for them for them.
+5.don't generate solution to solve the query .only generate type of the query.
+
+refer following examples :
+    user_query = create text file in current working directory with the name of bruh.txt.
+    type = create
+
+    user_query = list all the file whioch names starts with 'ab'.
+    type = neutral
+
+    user_query = remove all the folders in in currant directory.
+    type =  delete
+
+Generate one word type for following user query similar to the output of examples:
+user_query = {user_query}
+type = 
